@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elite Exterior Cleaning</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #0d1b2a;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #1b263b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-card {
+            flex: 1 1 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #0d1b2a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Elite Exterior Cleaning</h1>
+    <p>Professional Power Washing & Window Cleaning Services</p>
+    <a href="#contact" class="cta-button">Request a Free Quote</a>
+</header>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-card">
+            <h3>Driveway & Sidewalk Cleaning</h3>
+            <p>Remove dirt, stains, and buildup to restore your property’s curb appeal.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Exterior Window Cleaning</h3>
+            <p>Streak-free window cleaning to make your home look brighter and cleaner.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Patio & Deck Washing</h3>
+            <p>Refresh outdoor living spaces with professional surface cleaning.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Why Choose Us?</h2>
+    <p>
+        We provide reliable, affordable, and high-quality exterior cleaning services.
+        Our goal is to help homeowners improve curb appeal with professional results.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: yourexteriorcleaning@gmail.com</p>
+    <p>Phone: (555) 123-4567</p>
+    <p>Serving your local area</p>
+</section>
+
+<footer>
+    <p>© 2026 Elite Exterior Cleaning. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
